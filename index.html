@@ -38,6 +38,20 @@
         .gallery img:hover {
             transform: scale(1.1);
         }
+        .love-message {
+            font-size: 24px;
+            font-weight: bold;
+            color: #ff4d4d;
+            margin-top: 20px;
+        }
+        .love-message span {
+            display: inline-block;
+            animation: float 1.5s infinite alternate;
+        }
+        @keyframes float {
+            from { transform: translateY(0px); }
+            to { transform: translateY(-5px); }
+        }
     </style>
 </head>
 <body>
@@ -54,7 +68,9 @@
             <img src="https://i.ibb.co/rGrLLdVW/IMG-20241117-204527.jpg" alt="Foto 4">
             <img src="https://i.ibb.co/5Xjz3WgD/IMG-20240827-154649.jpg" alt="Foto 5">
         </div>
-        <h3>❤️TE AMO❤️</h3>
+        <div class="love-message">
+            🌸💖✨ <span>T</span><span>E</span> <span>A</span><span>M</span><span>O</span> ✨💖🌸
+        </div>
     </div>
 </body>
 </html>
